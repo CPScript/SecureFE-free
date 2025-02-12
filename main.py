@@ -37,7 +37,7 @@ def encrypt(code, key):
     iv = get_random_bytes(AES.block_size)
     cipher = AES.new(key, AES.MODE_GCM, iv)
     
-    watermark = 'CPScripts AES encryptor'
+    watermark = 'CPScripts secureFE Version-Free. Contact: contact-disease.unelected107@passmail.net to upgrade.'
     code_with_watermark = f'''{code}\n# encrypted and obfuscated using: {watermark}'''
     compiled_code = compile(code_with_watermark, '<string>', 'exec')
     bytecode = marshal.dumps(compiled_code)
@@ -78,7 +78,9 @@ def check(file_path):
 
 def main():
     os.system('clear')
-    print(" • Creator: CPScript\n")
+    print("Creator: https://github.com/CPScript")
+    print("SecureFE Free (python file encryptor and obstuctor only)")
+    print("To get the payed version(10$USD compiled)(50$ open-source) contact this email: contact-disease.unelected107@passmail.net")
 
     input_file = input(' [user-input] -- [Enter File Name (ex: main.py)]: ')
 
