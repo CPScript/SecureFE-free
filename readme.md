@@ -1,4 +1,4 @@
-# CPScripts AES Encryptor
+# SecureFE (free) (python encryptor & obfuscate only)
 
 >CPScripts AES Encryptor is a Python-based tool designed to encrypt, obfuscate, and compress Python code, making it harder to reverse-engineer and unauthorized access. The tool uses AES encryption with RSA key wrapping to securely protect your Python code. Additionally, it obfuscates the code by renaming functions and modifying critical parts to make analysis more difficult.
 
@@ -65,8 +65,6 @@ python encryptor.py
 ## Example
 
 ```
-• Creator: CPScript
-
 [user-input] -- [Enter File Name (ex: main.py)]: example.py
 [user-input] -- [Enter a password to generate a secure key]: examplePassword
 
@@ -82,4 +80,4 @@ Encrypted file has been saved as: example_encrypted.py File integrity hash: a4f3
 
 ## Disclaimer
 
-While this tool provides an additional layer of security, no encryption or obfuscation method is entirely foolproof. It is still possible for determined attackers with access to the environment (e.g., through physical access or other means) to eventually reverse-engineer or bypass these protections.
+While this tool provides an additional layer of security, no encryption or obfuscation method is entirely foolproof atleast not this free versions. It is still possible for determined attackers with access to the environment (e.g., through physical access or other means) to eventually reverse-engineer or bypass these protections.
