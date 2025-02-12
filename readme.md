@@ -1,6 +1,6 @@
 # SecureFE (free) (python encryptor & obfuscate only)
 
->CPScripts AES Encryptor is a Python-based tool designed to encrypt, obfuscate, and compress Python code, making it harder to reverse-engineer and unauthorized access. The tool uses AES encryption with RSA key wrapping to securely protect your Python code. Additionally, it obfuscates the code by renaming functions and modifying critical parts to make analysis more difficult.
+>SecureFE is a Python-based tool designed to encrypt, obfuscate, and compress Python code, making it harder to reverse-engineer and unauthorized access. The tool uses AES encryption with RSA key wrapping to securely protect your Python code. Additionally, it obfuscates the code by renaming functions and modifying critical parts to make analysis more difficult.
 
 ## Features
 
